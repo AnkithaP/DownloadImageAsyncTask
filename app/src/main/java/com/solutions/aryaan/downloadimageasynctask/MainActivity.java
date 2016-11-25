@@ -48,8 +48,8 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
     }
 
     @Override
-    public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
-        selectionText.setText(listOfImages[i]);
+    public void onItemClick(AdapterView<?> adapterView, View view, int position, long l) {
+        selectionText.setText(listOfImages[position]);
     }
 
     class MyTask extends AsyncTask<String,Integer,Boolean>{
@@ -114,9 +114,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
                         Message.logMessage(""+e);
                     }
                 }
-
             }
-
             return successful;
         }
 
