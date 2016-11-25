@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">DownloadImageAsyncTask</string>
+
+    <string-array name="urls">
+        <item>Image 1</item>
+        <item>Image 2</item>
+        <item>Image 3</item>
+        <item>Image 4</item>
+        <item>Image 5</item>
+        <item>Image 6</item>
+        <item>Image 7</item>
+    </string-array>
+
+    <string-array name="imageUrls">
+        <item>http://www.planwallpaper.com/static/images/9-credit-1.jpg</item>
+        <item>http://www.planwallpaper.com/static/images/desktop-year-of-the-tiger-images-wallpaper.jpg</item>
+        <item>http://www.planwallpaper.com/static/images/image-slider-2.jpg</item>
+        <item>http://www.planwallpaper.com/static/images/Winter-Tiger-Wild-Cat-Images.jpg</item>
+        <item>http://www.planwallpaper.com/static/images/orangutan_1600x1000_279157.jpg</item>
+        <item>http://www.planwallpaper.com/static/images/nasas-images-of-most-remarkable-events-you-cant-miss.jpg</item>
+        <item>https://static.pexels.com/photos/33045/lion-wild-africa-african.jpg</item>
+    </string-array>
+</resources>
